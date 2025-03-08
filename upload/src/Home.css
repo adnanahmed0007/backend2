@@ -1,0 +1,62 @@
+.home-container {
+    font-family: 'Arial', sans-serif; /* Use a common font for consistency */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color for the home page */
+    min-height: calc(100vh - 60px); /* Ensure the container takes up full height minus header */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements */
+  }
+  
+  .home-header {
+    text-align: center;
+    background-color: #4a90e2; /* Match header background */
+    color: white; /* Header text color */
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 20px; /* Space between header and content */
+  }
+  
+  h1 {
+    font-size: 2.5em; /* Large font for the main title */
+    margin: 0; /* Remove default margin */
+  }
+  
+  h2 {
+    font-size: 1.8em; /* Subheading font size */
+    color: #333; /* Darker color for subheadings */
+    margin-bottom: 10px; /* Space below subheading */
+  }
+  
+  .intro-section, .cta-section {
+    max-width: 600px; /* Limit width for readability */
+    margin: 20px; /* Space around sections */
+    padding: 20px;
+    background-color: white; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .cta-button {
+    background-color: #4CAF50; /* Green color for the button */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Button font size */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+  }
+  
+  .cta-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .home-footer {
+    margin-top: auto; /* Push footer to the bottom */
+    text-align: center;
+    font-size: 14px; /* Smaller font for footer */
+    color: #777; /* Gray color for footer text */
+  }
+  

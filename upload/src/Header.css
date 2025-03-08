@@ -1,0 +1,25 @@
+.header-container {
+    background-color: #4a90e2; /* Header background color */
+    padding: 10px 20px; /* Space inside the header */
+    display: flex; /* Align items horizontally */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .nav-links {
+    display: flex; /* Align links horizontally */
+    gap: 15px; /* Space between links */
+  }
+  
+  .nav-link {
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Space around link text */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .nav-link:hover {
+    background-color: #357ab8; /* Darker shade on hover */
+  }
+  
